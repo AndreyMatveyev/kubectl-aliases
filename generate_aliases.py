@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-# Copyright 2017 Google Inc.
+# Copyright 2020 Google Inc.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -49,6 +49,7 @@ def main():
 
     res = [
         ('po', 'pods', ['g', 'd', 'rm'], None),
+        ('jo', 'jobs', ['g', 'd', 'rm'], None),
         ('dep', 'deployment', ['g', 'd', 'rm'], None),
         ('svc', 'service', ['g', 'd', 'rm'], None),
         ('ing', 'ingress', ['g', 'd', 'rm'], None),
