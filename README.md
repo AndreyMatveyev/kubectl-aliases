@@ -75,7 +75,7 @@ function kubectl() { echo "+ kubectl $@">&2; command kubectl $@; }
 * resources:
   * **`po`**=pod, **`dep`**=`deployment`, **`ing`**=`ingress`,
     **`svc`**=`service`, **`cm`**=`configmap`, **`sec`=`secret`**,
-    **`ns`**=`namespace`, **`no`**=`node`
+    **`ns`**=`namespace`, **`no`**=`node`, **`jo`**=`job`
 * flags:
   * output format: **`oyaml`**, **`ojson`**, **`owide`**
   * **`all`**: `--all` or `--all-namespaces` depending on the command
